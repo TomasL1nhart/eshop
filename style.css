@@ -1,0 +1,63 @@
+/*
+Theme Name: Shopper
+Author: Tomas
+Description: Shop at our shopper
+Version: 1.0
+*/
+
+
+/* Hero Section */
+.hero {
+    padding: 120px 0;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text {
+    color: white; /* Bílý text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Stín */
+    -webkit-text-stroke: 1px black; /* Černý obrys */
+}
+
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    background-color: #264653;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.hero .btn:hover {
+    background-color: #2a9d8f;
+}
+
+/* About Us Section */
+.about-us {
+    color: #454343;
+    padding: 50px 0;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
