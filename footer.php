@@ -26,8 +26,6 @@
 
 <?php wp_footer(); ?>
 
-<!-- Adding Bootstrap JS and Font Awesome icons -->
-<!-- Font Awesome Icons -->
 <?php wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css', array(), null ); ?>
 
 <!-- Bootstrap JS (CDN) -->

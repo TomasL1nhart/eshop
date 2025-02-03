@@ -61,3 +61,21 @@ Version: 1.0
     color: #333;
 }
 
+.navbar-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-nav .menu-item a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .menu-item a:hover {
+    color: #f8c146; /* Změna barvy při najetí myší */
+}
+
+
